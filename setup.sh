@@ -20,7 +20,7 @@ apt install -y apache2
 # Buat folder untuk domain dan clone project
 mkdir -p /var/www/$DOMAIN
 cd /var/www/$DOMAIN
-git clone https://DEDI1956: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@github.com/DEDI1956/DIANA-STORE-VIP.git .
+git clone https://DEDI1956@github.com/DEDI1956/DIANA-STORE-VIP.git .
 
 # Buat Virtual Host Apache untuk domain
 cat <<EOF >/etc/apache2/sites-available/$DOMAIN.conf
